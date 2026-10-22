@@ -1,0 +1,27 @@
+{
+  "index_dir": "data/processed/retrieval_index_v4_expanded",
+  "queries_path": "data/evaluation/queries_v4_expanded.json",
+  "query_count": 12,
+  "evaluation_unit": "chunk",
+  "k": 5,
+  "metrics": {
+    "Dense": {
+      "Hit Rate@k": 0.9166666666666666,
+      "Recall@k": 0.7069444444444444,
+      "MRR@k": 0.9166666666666666,
+      "nDCG@k": 0.7660916709229038
+    },
+    "BM25": {
+      "Hit Rate@k": 0.8333333333333334,
+      "Recall@k": 0.3083333333333333,
+      "MRR@k": 0.7083333333333334,
+      "nDCG@k": 0.378123785393907
+    },
+    "Hybrid": {
+      "Hit Rate@k": 1.0,
+      "Recall@k": 0.8888888888888888,
+      "MRR@k": 0.9444444444444445,
+      "nDCG@k": 0.8584755083450893
+    }
+  }
+}

@@ -1,0 +1,51 @@
+# Python and test caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+credentials.json
+service-account.json
+
+# Generated indexes and temporary data
+data/processed/
+data/external/
+data/staging_v4_expanded/
+
+# Backups and temporary versions
+*.bak
+*.backup
+*.tmp
+tests/trash/
+
+# Evaluation snapshots that are not canonical ground truth
+data/evaluation/*.source_level_backup.json
+data/evaluation/*.before_*.json
+
+# Generated model/index artifacts
+*.faiss
+*.index
+*.safetensors
+
+# Logs and generated runtime output
+logs/
+outputs/
+*.log
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/

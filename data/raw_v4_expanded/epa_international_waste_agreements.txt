@@ -1,0 +1,56 @@
+The Basel Convention
+The Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal is a multilateral agreement negotiated under the United Nations Environment Program (UNEP) beginning in 1988. The negotiators of the Convention wanted to promote environmentally sound management of exported and imported waste, especially in developing countries.
+
+The Basel Convention establishes standards for the transboundary movement of hazardous waste, solid waste, and municipal incinerator ash, including notice to and written confirmation from the receiving country prior to export. As of August 2024, 190 countries and the European Commission are parties to the Convention. The United States is a signatory to the Basel Convention, but has not yet become Party to the Convention.
+
+Basel Convention Requirements
+The Convention requires that the exporting country notify the receiving country and any transit countries of the proposed shipment. The waste shipment may occur only after the transit and receiving countries have given consent for the shipment. The Convention also requires that an international movement document accompany the waste shipment from its point of origin until its ultimate recycling or disposal.
+
+In addition, shipments of waste must be packaged, labeled, and transported in accordance with international rules. In the event that an accident occurs during the shipment of the waste, Basel requires that the responsible parties inform the potentially affected countries of the accident. Finally, parties to the Convention must submit an annual report to the Basel Secretariat summarizing the amounts and types of hazardous waste exported or imported and the destination and disposal methods.
+
+Basel Convention Restrictions
+The Basel Convention contains two major restrictions on waste movements. The first restriction requires that exports of waste occur only under the following circumstances:
+
+If the exporting country does not have sufficient disposal or recycling capacity;
+If the exporting country does not have disposal and recycling facilities that can manage the waste in an environmentally sound manner; or
+If the wastes are required as a raw material for recycling or recovery industries in the importing country.
+The Convention also prohibits the movement of waste between parties to the convention and non-parties, except when these movements occur under a separate agreement. The agreement must provide an equally sound management structure for transboundary movements of waste.
+
+Implications of the Basel Convention for U.S. Importers & Exporters
+Although the United States is not currently a party to the Basel Convention, this treaty still affects U.S. importers and exporters. Parties to the Basel Convention cannot trade Basel-covered waste with nonparties in the absence of a pre-determined agreement between countries.
+
+Organization for Economic Cooperation and Development (OECD) Council Decision
+OECD Member Countries Participating in the Amended 2001 OECD Council Decision C(2001)107/FINAL AS AMENDED as of January 28, 2026 are the following: Australia, Austria, Belgium, Canada, Chile, Colombia*, Costa Rica, the Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Latvia, Lithuania, Luxembourg, Mexico, the Netherlands, New Zealand, Norway, Poland, Portugal, the Republic of Korea, the Slovak Republic, Slovenia, Spain, Sweden, Switzerland, Turkey*, the United Kingdom, and the United States.
+
+*Note that Colombia and Turkey prohibit the import of hazardous waste.
+
+The United States participates in a legally binding agreement with OECD members governing transboundary movements of waste for recovery purposes. The OECD Council Decisionon the Control of Transboundary Movements of Wastes Destined for Recovery Operations is a multilateral agreement that establishes procedural and substantive controls for the import and export of hazardous waste for recovery between OECD member nations. Recovery operations refer to activities leading to resource recovery, recycling, reclamation, direct re-use or alternative uses (See Title 40 of the Code of Federal Regulations or CFR in section 262.81). The agreement is intended to facilitate the trade of such waste and minimize the possibility that such wastes will be abandoned or handled illegally.
+
+The OECD Council agreement provides a tiered level of control for transboundary movements of hazardous waste. This agreement specifies two categories of waste: green and amber. The green list includes wastes that pose the least hazard to human health and the environment and are subject to the same level of control as normal transboundary commercial shipments.
+
+Most hazardous wastes managed under the Resource Conservation and Recovery Act are amber list wastes, which are more hazardous and are subject to more stringent requirements. EPA incorporates the green and amber lists of waste in 40 CFR section 262.89. Note that wastes designated on the green list that are hazardous under U.S. national procedures are subject to amber controls (See 40 CFR section 262.82(a)(1)(i)).
+
+The import and export of hazardous waste to and from the United States is subject to the requirements established in the Amended 2001 OECD Council Decision, and U.S. parties must comply with implementing regulations in 40 CFR Part 262, Subpart H. These requirements ensure that all parties involved in the transaction are notified that the shipment will occur and understand the type of wastes shipped.
+
+Bilateral Agreements Between the United States and Other Countries
+The United States has established separate agreements for importing and exporting mainly hazardous waste with Canada, Mexico, Costa Rica, Malaysia, and the Philippines.
+
+Canada
+The bilateral agreement between Canada and the United States was established in 1986 and amended in 1992. It addresses the transboundary movement of hazardous waste, municipal solid waste (MSW), and ash from the incineration of MSW between the two countries for recycling or disposal. The bilateral agreement, among other goals, seeks to provide both countries with safe, low cost options for managing waste for which there is either a lack of domestic capacity or the technology to appropriately manage the waste.
+
+In addition to the bilateral agreement discussed above, the United States and Canada established a bilateral arrangement in late 2020 to address the transboundary movement of non-hazardous scrap and waste between the two countries for environmentally sound management. Under this bilateral arrangement, transboundary movements of non-hazardous scrap and waste, including the non-hazardous plastic scrap and waste covered by Basel listing Y48 are not subject to prior notice and consent requirements when subject to transboundary movement between the two countries and destined for environmentally sound management in either country.
+
+Mexico
+The bilateral agreement between Mexico and the United States was established in 1986 and amended in 2012 (pdf)(1,664 KB). It addresses the transboundary movement of hazardous wastes from Mexico to the United States for recycling or disposal, and the transboundary movement of hazardous wastes from the United States to Mexico for recycling only. The changes in 2012 were made to:
+
+Allow for the electronic transmission of notifications.
+Remove the requirement for sending the notifications through diplomatic channels for both U.S. hazardous waste exports to Mexico and hazardous waste imports from Mexico into the U.S.
+Reduce the review time of notifications from 45 to 30 days.
+
+### Costa Rica, Malaysia, and the Philippines
+
+Costa Rica, Malaysia and the Philippines have separate bilateral agreements with the United States. The United States may receive waste for recycling or disposal from Costa Rica, Malaysia, and the Philippines, but may not export waste to these countries.
+
+- [The Agreement Between the Government of America and the Government of Malaysia Concerning the Transboundary Movement of Hazardous Wastes from Malaysia to the United States (1995)](https://www.epa.gov/hwgenerators/agreement-between-government-america-and-government-malaysia-concerning-transboundary)
+- [The Agreement on the Transboundary Movement of Hazardous Waste from Costa Rica to the United States (1997)](https://www.epa.gov/hwgenerators/agreement-transboundary-movement-hazardous-waste-costa-rica-united-states-1997)
+- [The Agreement Between the Government of the United States of America and the Government of the Republic of the Philippines Concerning the Transboundary Movement of Hazardous Wastes from the Philippines to the United States (2001)](https://www.epa.gov/hwgenerators/agreement-between-government-united-states-america-and-government-republic-philippines)

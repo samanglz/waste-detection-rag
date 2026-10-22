@@ -1,0 +1,179 @@
+Pathways towards circular plastics in Europe — good practice examples from countries, business and citizens
+
+Briefing Published 20 Feb 2023
+
+Plastics play an essential role in modern society. However, their value chain is currently unsustainable, contributing to the generation of climate changing emissions and increasing waste and pollution. Reducing such impacts while retaining plastics’ usefulness requires a shift towards a more circular and sustainable plastics system. This shift can be accelerated by scaling up good practice examples and making improvements across the plastics value chain.
+
+Key messages
+
+Three pathways can lead to a more circular, sustainable plastics system: smarter use , increased circularity and renewable material . Good practice examples for each of these pathways have been found across Europe among business, policymakers and citizens. These good practice examples can serve as an inspiration for how to make plastics more sustainable and circular.
+
+Most good practice examples found are small scale and would need to be scaled up and implemented much more broadly to strengthen the circular plastics economy. More examples are found in waste management than in design, production or use.
+
+The pathways are not developing at the same pace. Increased circularity is the most developed, with several relatively large-scale good practise examples. Smarter use is emerging, with a growing number of good practice examples showing potential to be scaled up. Renewable material is the least developed, but many examples show high potential for further development.
+
+Good practice examples of the smarter use pathway include reducing the use of unnecessary plastics through less packaging, fewer single-use products and, to a lesser extent, circular product design, extending product lifetimes and increasing reuse and repair.
+
+Good practice examples of the increased circularity pathway focus on maintaining the value and utility of plastics in multiple loops through collection, sorting and recycling.
+
+Good practice examples of the renewable material pathway include switching to renewable feedstocks to help eliminate the dependence of plastic production based on fossil fuels. However, it is important that renewable materials production is not in direct competition with food and feed production, and using biowaste should be prioritised over new biobased feedstocks.
+
+Plastics pollution is found everywhere in the environment, even in remote places, as has been known for years. Recently, knowledge has increased about the negative impact of plastics on climate change, air pollution and human health. New pathways for plastics production and consumption are needed to increase circularity and sustainability in Europe and beyond. The three pathways discussed in this briefing are smarter use, increased circularity and renewable materials, for which good practice examples are found across Europe (EEA, 2020).
+
+This briefing provides an overview of good practice examples of these pathways, including from policymakers, business and citizens. There is no ‘one solution fits all’ for circular and sustainable plastics. The examples provide inspiration, are scalable and can therefore help to build the foundations of an increasingly circular and sustainable plastics economy. This briefing is underpinned by a more detailed report prepared by the European Topic Centre on Circular Economy and Resource Use (ETC/CE).
+
+Figure 1 shows how the good practice examples found for the three pathways address various life cycle steps and contribute to reduced environmental impacts.
+
+Figure 1. Pathways towards sustainable and circular plastics
+
+Please select a resource that has a preview image available.
+
+The smarter use of plastics pathway
+
+An important step towards increasing the sustainability and circularity of plastics is to consider and rethink when and why plastics are used. In Europe and worldwide, there is a need to reduce the use of unnecessary plastics, redesign plastic-containing products and extend the lifetime of plastic products already in use. This includes repairing plastic-containing products more often.
+
+The relatively low price of plastics, as well as the current design of most plastic-containing products, does not naturally encourage longer use, repair, reuse or sharing. Therefore, it is important to increase motivation to take action and scale up existing good practice examples, including those reducing the need for plastics or improving reuse systems (OECD, 2022). The approaches used in these good practice examples may not always be more convenient, but they will be necessary in the transition to a more circular and sustainable use of plastics.
+
+Figure 2 illustrates the smarter use of plastics pathway and the good practice examples found, which involve production and use. As shown, business, policymakers and citizens are key to implementing and scaling up the approaches taken in the good practice examples to achieve the goals of the pathway.
+
+Figure 2. The smarter use of plastics pathway
+
+Good practice examples of the smarter use of plastics most often relate to new business models enabling moving from owning products to accessing services, sharing between citizens, and using less plastic packaging. These are discussed below.
+
+New, sustainable and circular business models
+
+Access-based circular business models enable consumers to access goods and services that meet their needs without requiring them to own the product itself. These business models have the potential to reduce the production of new products, while increasing the intensity and efficiency of existing products through shared use and reuse.
+
+One good example of an access-based business model is renting out reusable cups, cans, cutlery, etc., for different events and using these items in restaurants, instead of providing single-use products. This is seen in France, where all disposable packaging in fast-food restaurants has recently been banned (Chrisafis, 2022). The EU Single-Use Plastics (SUP) Directive aims to ban or reduce the use of 10 types of plastics products that are used only once and often for a short time before they are thrown away and to promote the use of more sustainable alternatives (EU, 2019). Another example is renting out good-quality festival gear, including sleeping mats, tents and pavilions, thereby limiting the purchasing of cheap, poor-quality gear, which is often left behind. A third example is leasing personal electronic products containing plastics, including headphones, printers and washing machines, to reduce the number of new products purchased. All of the above are good practice examples of approaches that, if implemented on a large scale, can reduce the production of new products and increase the intensity and efficiency of use of products containing plastics, decreasing their overall environmental and climate impacts.
+
+Sharing between citizens
+
+Sharing between citizens is another increasing trend within plastics; instead of purchasing products containing plastics, citizens can share or rent these directly or through common platforms such as libraries. Good practice examples here encourage more circular habits by ensuring that many citizens use the same products again and again. Key to the success and scaling of this scheme is efficient redistribution and accessibility, while at the same time ensuring that sharing services enable consumers to save money (Kimberley, 2020).
+
+An example of sharing plastic-containing products is citizens renting their cars (often electric cars) to others when they do not need them (as an alternative to more traditional car rental services). Another example is sharing tools and equipment, for example in Finland, where public libraries offer a wide range of products, such as sewing machines, musical instruments and energy meters. A third example is baby equipment, including toys, strollers, highchairs, car seats and similar, which often are used for a short time, compared to the lifetime of the products. Renting and leasing services for these products are becoming more popular, as is reselling between private consumers through apps, webpages and other platforms.
+
+Reusing plastic packaging
+
+Using plastics in a smarter way also means avoiding unnecessary use of plastics, including by reusing plastic packaging. In 2021, the EU Plastics Own Resource initiative was implemented, which encourages Member States to reduce packaging waste by putting a uniform call rate on non-recycled plastic packaging waste.
+
+One example of smarter plastic packaging use is the business-to-business (B2B) reuse of packaging in the food sector. By standardising plastic crates and pallets and making them good quality, it is possible to create a closed loop, whereby a deposit scheme enables the packaging to be returned. Another example is consumers bringing their own reusable containers to shops and refilling them with various products from bulk (such as nuts, cereals and shampoo). Well-designed refill/reuse systems can successfully save materials, but more radical approaches such as packaging-free shops have not been very successful on a large scale.
+
+The increased circularity of plastics pathway
+
+Increasing the circularity of plastics and closing the materials loop, including through higher resource efficiency and lower material (and value) losses, are important for maintaining the value and utility of plastics. A major issue is the (quantity and) quality of recycled materials on the market at present, as only a fraction of these recyclates can be used in high-value products. Therefore, most of the recycled materials are part of downcycling processes.
+
+Many plastics contain additives that might hinder the recycling process by contaminating the resulting recyclates. Uncertainty about the composition of waste material often leads to disposal by incineration, contributing to greenhouse gas emissions.
+
+Figure 3 illustrates good practice examples for the increased circularity of plastics across the life cycle. Business, policymakers and citizens are key to implementing the approaches taken in these good practice examples to achieve the goals of the pathway.
+
+Figure 3. The increased circularity of plastics pathway
+
+Good practice examples for the increased circularity pathway are often related to the increased collection, sorting and recycling of plastics achieved through business, policymaker and citizen initiatives. These are discussed below.
+
+Increased collection and sorting of plastic
+
+Increasing the collection, sorting and recycling of plastics after use is essential for meeting the goals for better plastic waste management. Collecting and sorting plastics both reduces the amount of plastic littering and microplastics in terrestrial and marine environments and helps to secure the infrastructure needed to increase plastic recycling. In recent years, business has taken many initiatives in response to the growing focus on recycling.
+
+One example is businesses offering take-back services for their own products at the end of a product’s life, thereby enabling the qualitative recycling and sometimes reuse of these products. This ensures that companies have full traceability of materials and components. In other cases, businesses collaborate with stakeholders to develop separate collection and recycling schemes for a given product category, making it easier for consumers to hand back their used products. For all consumer products, the role of citizens is key to closing the material loops, be it through contributing to proper collection and separation of waste or choosing products with high recycled content during purchasing, thereby encouraging manufacturers to use more recycled content in their products.
+
+Connecting recycling and recycled materials markets
+
+Policymakers have a very important role to play in the continued development of policy initiatives that contribute to designing better products for reuse and recycling, increasing the collection rate of plastic waste, and further developing sorting and recycling technology, as well as providing well-developed markets for secondary materials.
+
+An important tool that policymakers have to support the circular use of plastics is setting quotas for recycled content in suitable applications, such as packaging, automotive, construction and electronics.
+
+Examples include the EU plastics strategy , the newly proposed revision of the EU Packaging and Packaging Waste Directive and the EU Plastics Own Resource initiative as presented above. The EU plastics strategy aims to make recycling profitable for businesses, curb plastic waste, drive innovation and investment and spur global change (EC, 2018). The revision of the Packaging and Packaging Waste Directive covers both packaging design and waste management and establishes EU-level packaging waste prevention measures and targets (EU, 1994).
+
+Concrete initiatives include national and regional knowledge hubs that are currently being formed. Another initiative is the Circular Plastics Alliance (CPA) , which the European Commission established as part of the EU plastics strategy to boost the EU market for recycled plastics to 10 million tonnes each year by 2025. The alliance covers the whole plastics value chain and comprises 311 signatories representing industry, academia, non-governmental organisations and public authorities. Yet another initiative is the Ellen MacArthur Foundation’s initiative on a circular economy for plastics, which proposes to eliminate waste and innovate circularity of plastics (Ellen MacArthur Foundation, 2023).
+
+A further example is the various extended producer responsibility (EPR) schemes, which can promote product design for circularity, the collection of end-of-life products and circular recycling to high-value materials that promotes the use of eco-modulated fees that favour recyclable (and sustainable) products.
+
+The renewable material pathway
+
+The renewable material pathway for plastics focuses on promoting renewable feedstock-based solutions, such as biobased plastics, which support the decoupling from fossil-based feedstocks.
+
+This pathway focuses on the beginning of the value chain, on feedstock choices and on feedstock supply. Possible benefits of using renewable feedstocks include breaking the dependence of plastic production on fossil fuels, reducing greenhouse gas emissions and, if the feedstocks are locally and sustainably sourced, increasing rural development and also possibly reducing dependence on imported feedstocks.
+
+Biobased plastics are made from renewable materials, in contrast to conventional plastic, which is usually made from fossil-based resources (oil and gas). It is important to ensure that resource use is reduced in the first place, and that the materials of all feedstocks, including biobased feedstocks, are kept in the circular economy loop for as long as possible. This means that secondary raw materials, e.g. biowaste and by-products like used cooking oil, are preferred to primary raw materials, e.g. sugarcane and wood.
+
+Box 1. Biobased plastic is not always biodegradable
+
+In general, ‘biobased’ refers to the origin of materials and ‘biodegradable’ refers to the potential behaviour of those materials under controlled circumstances at product end of life. Thus, whether a type of plastic is biodegradable or not depends in large part on its composition and not on the source of the materials used in its production. This means that biobased plastics are not necessarily biodegradable.
+
+Non-degradable biobased plastics are conventional plastic types produced with renewable biobased materials. This type of plastic can be recycled in the same way as and mixed with plastics from fossil fuel sources.
+
+Biodegradable plastics are designed to degrade in specific mediums under specific conditions, meaning that they do not necessarily degrade in the open environment. Often, biodegradable plastics cannot be recycled together with non-biodegradable plastics.
+
+More information can be found in the EEA’s briefing ‘ Biodegradable and compostable plastics — challenges and opportunities ’ and in the European Commission’s communication on biobased, biodegradable and compostable plastics .
+
+Biodegradable plastics are recommended for only very specific uses in the European Commission’s communication on biobased, biodegradable and compostable plastics and should not be seen as a solution to inappropriate waste management and littering (EC, 2022).
+
+Figure 4 illustrates good practice examples for the renewable material pathway, which involves plastics production, use and waste. Businesses and policymakers are key to implementing the approaches taken in these good practice examples to achieve the goals of the pathway.
+
+Figure 4. The renewable material for plastics pathway
+
+Good practice examples for the renewable material pathway are often seen to be related to the emerging production methods, including the development and uptake of biobased feedstocks, and new initiatives from policymakers against greenwashing, including to improve product specifications of biobased plastics. The examples are presented below.
+
+Emerging production methods
+
+Biobased plastics have the potential to reduce CO 2 emissions if they are produced responsibly and recycled rather than incinerated (ETC WMGE, 2021). The feedstocks for biobased plastics are often divided into first, second and sometimes third generation (EC, 2012). First-generation feedstocks are suitable for food and feed applications and include corn and sugarcane. Second- and third-generation feedstocks are not suitable for food or feed and include non-food crops such as cellulose and algae, by-products of food and feed production such as corn stover and waste streams such as biowaste (ETC/CE, 2023). Second- and third-generation feedstocks are preferable, as they do not compete with food and feed production.
+
+The commercial availability of biobased plastic products is still limited, but such products include packaging, textiles and films.
+
+New initiatives against greenwashing
+
+Greenwashing is a growing problem in the transition to a circular economy. Generic claims that products include ‘bioplastics’ or ‘biobased plastics’ are often made without any specifications of amounts or sources. These claims can mislead consumers and create confusion in the market.
+
+One example of an initiative to counter this trend is a forthcoming proposal from the European Commission to limit unsubstantiated green claims and for companies to refer to only exact and measurable shares of biobased plastic content in products (EC, 2022).
+
+How to scale up good practice examples for the pathways towards a to sustainable and circular plastics system
+
+Businesses have an opportunity to influence and contribute to the development and implementation of the smarter use pathway, the increased circularity pathway and the renewable material pathway. There is high potential for investing in and scaling up circular business models . To upscale the circular ways of doing business, technical and social innovations and collaboration are needed (EEA, 2021). Businesses play a crucial role in the whole life cycle of plastics and in making this life cycle more sustainable and circular.
+
+Policymakers can affect the speed of development of the smarter use pathway, the increased circularity pathway and the renewable material pathway by providing timely and proper policy frameworks and clarity. EU policy makers can continuously develop and ensure the implementation of policies that increase the circularity and sustainability of plastics production and consumption. The UN global treaty on plastics currently being developed will hopefully contribute to making plastics more sustainable and circular globally.
+
+Citizens can play a role in the smarter use pathway and the increased circularity pathway. They can contribute by demanding more sustainable and circular products and by being willing to engage with new, circular business models. Citizens can also contribute by changing the way they use plastics by reducing unnecessary consumption and dispose of plastics including sorting and returning products and by using longer-lasting plastic products.
+
+The examples presented in this briefing are intended to inspire business, policymakers and citizens to participate and collaborate in making plastics more circular and sustainable, thereby better protecting the environment and climate from the detrimental effects of plastics production, consumption and waste management.
+
+Briefing no. 02/2023 Title: Pathways towards circular plastics in Europe — good practice examples from countries, business and citizens EN HTML: TH-AM-23-003-EN-Q - ISBN: 978-92-9480-545-4 - ISSN: 2467-3196 - doi: 10.2800/958226 EN PDF: TH-AM-23-003-EN-N - ISBN: 978-92-9480-544-7 - ISSN: 2467-3196 - doi:10.2800/750603
+
+Chrisafis, A., 2022, ‘Ban on single-use restaurant tableware hailed as fast-food “revolution” in France’, The Guardian, 28 December 2022 ( https://www.theguardian.com/world/2022/dec/28/france-ban-on-single-use-restaurant-tableware-hailed-as-fast-food-revolution ) accessed 1 February 2023.
+
+EC, 2012, Press corner: Indirect land use change (ILUC) (Memo/12/787).
+
+EC, 2018, Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions — A European strategy for plastics in a circular economy (COM(2018) 28 final).
+
+EC, 2022, Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions — EU policy framework on biobased, biodegradable and compostable plastics (COM(2022) 682).
+
+EEA, 2020, Plastics, the circular economy and Europe′s environment — a priority for action, EEA Report No 18/2020, European Environment Agency ( https://www.eea.europa.eu/publications/plastics-the-circular-economy-and ) accessed 9 May 2022.
+
+EEA, 2021, ‘A framework for enabling circular business models in Europe’ ( https://www.eea.europa.eu/publications/a-framework-for-enabling-circular#:~:text=Circular%20business%20models%20can%20enable%20the%20meeting%20of,all%20phases%20of%20the%20life%20cycle%20%28EEA%2C%202019a%29. ) accessed 10 February 2023.
+
+Ellen MacArthur Foundation, 2023, ‘Plastics: designing out plastic pollution’, Ellen MacArthur Foundation ( https://ellenmacarthurfoundation.org/topics/plastics/overview ) accessed 16 January 2023.
+
+ETC WMGE, 2021, Greenhouse gas emissions and natural capital implications of plastics (including biobased plastics), Eionet Report — ETC/WGME 2021/3, European Topic Centre on Waste and Materials in a Green Economy ( https://www.eionet.europa.eu/etcs/etc-wmge/products/etc-wmge-reports/greenhouse-gas-emissions-and-natural-capital-implications-of-plastics-including-biobased-plastics ) accessed 1 February 2023.
+
+ETC/CE, 2023, Pathways to circular plastics in Europe: Good examples from countries, businesses and citizens, Eionet Report No 2023/1, European Topic Centre Circular Economy and Resource Use.
+
+EU, 1994, European Parliament and Council Directive 94/62/EC of 20 December 1994 on packaging and packaging waste (OJ L 365, 31.12.1994, pp. 10-23).
+
+EU, 2019, Directive (EU) 2019/904 of the European Parliament and of the Council of 5 June 2019 on the reduction of the impact of certain plastic products on the environment (OJ L 155, 12.6.2019, p. 1-19).
+
+Kimberley, G., 2020, ‘The environmental benefits of Product as a Service’, Productasaservice.net ( https://productasaservice.net/the-environmental-benefits-of-product-as-a-service/ ) accessed 30 June 2022.
+
+OECD, 2022, Global plastics outlook: policy scenarios to 2060, Organisation for Economic Co-operation and Development ( https://www.oecd.org/publications/global-plastics-outlook-aa1edf33-en.htm ) accessed 1 February 2023.
+
+Related content:
+
+Most plastic consumption in Europe lacks direct policy targets and data
+
+Managing non-packaging plastics in European waste streams — the missing part of the plastic puzzle
+
+Biodegradable and compostable plastics — challenges and opportunities
+
+Scaling up good practices can boost sustainability of plastics
+
+From source to sea — The untold story of marine litter
+
+A framework for enabling circular business models in Europe

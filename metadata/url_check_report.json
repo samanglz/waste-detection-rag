@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-10-20T10:09:12.374543+00:00",
+  "registry": "metadata/source_registry.json",
+  "results": [
+    {
+      "document_id": "epa_recycling_basics",
+      "title": "Recycling Basics and Benefits",
+      "url": "https://www.epa.gov/recycle/recycling-basics-and-benefits",
+      "result": "connection_error",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+    },
+    {
+      "document_id": "epa_common_recyclables",
+      "title": "How Do I Recycle Common Recyclables?",
+      "url": "https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+      "result": "connection_error",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+    },
+    {
+      "document_id": "epa_plastic_best_practices",
+      "title": "Best Practices",
+      "url": "https://www.epa.gov/plastics/best-practices",
+      "result": "connection_error",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+    },
+    {
+      "document_id": "eea_recycling_quality",
+      "title": "Measuring the Quality of Recycling",
+      "url": "https://www.eea.europa.eu/en/analysis/publications/measuring-the-quality-of-recycling",
+      "http_status": 206,
+      "final_url": "https://www.eea.europa.eu/en/analysis/publications/measuring-the-quality-of-recycling",
+      "content_type": "text/html; charset=utf-8",
+      "result": "reachable"
+    },
+    {
+      "document_id": "eea_separate_collection",
+      "title": "Economic Instruments and Separate Collection Systems",
+      "url": "https://www.eea.europa.eu/en/analysis/publications/economic-instruments-and-separate-collection",
+      "http_status": 206,
+      "final_url": "https://www.eea.europa.eu/en/analysis/publications/economic-instruments-and-separate-collection",
+      "content_type": "text/html; charset=utf-8",
+      "result": "reachable"
+    },
+    {
+      "document_id": "eea_circular_plastics",
+      "title": "Pathways towards Circular Plastics in Europe",
+      "url": "https://www.eea.europa.eu/en/analysis/publications/pathways-towards-circular-plastics",
+      "http_status": 206,
+      "final_url": "https://www.eea.europa.eu/en/analysis/publications/pathways-towards-circular-plastics",
+      "content_type": "text/html; charset=utf-8",
+      "result": "reachable"
+    },
+    {
+      "document_id": "oecd_global_plastics_outlook",
+      "title": "Global Plastics Outlook",
+      "url": "https://www.oecd.org/en/publications/global-plastics-outlook_de747aef-en.html",
+      "http_status": 403,
+      "final_url": "https://www.oecd.org/en/publications/global-plastics-outlook_de747aef-en.html",
+      "result": "check_required",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "document_id": "oecd_recycled_plastics_markets",
+      "title": "Improving Markets for Recycled Plastics",
+      "url": "https://www.oecd.org/en/publications/improving-markets-for-recycled-plastics_9789264301016-en.html",
+      "http_status": 403,
+      "final_url": "https://www.oecd.org/en/publications/improving-markets-for-recycled-plastics_9789264301016-en.html",
+      "result": "check_required",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

@@ -1,0 +1,3184 @@
+{
+  "k": 3,
+  "query_count": 30,
+  "chunk_count": 19,
+  "evaluation_unit": "chunk",
+  "metrics": {
+    "Dense": {
+      "Hit Rate@k": 1.0,
+      "Recall@k": 0.9833333333333333,
+      "MRR@k": 0.9111111111111111
+    },
+    "BM25": {
+      "Hit Rate@k": 1.0,
+      "Recall@k": 0.9166666666666666,
+      "MRR@k": 0.8777777777777778
+    },
+    "Hybrid": {
+      "Hit Rate@k": 1.0,
+      "Recall@k": 0.95,
+      "MRR@k": 0.9666666666666667
+    }
+  },
+  "diagnostics": [
+    {
+      "query_id": 1,
+      "query": "PET and HDPE plastic recycling",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "plastic_codes_and_recyclability.txt::chunk_0",
+        "plastic_recycling.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_0",
+            "plastic_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 0.9057456254959106,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_0",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.8657205700874329,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.8269017338752747,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_0",
+            "plastic_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 11.443463109159769,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_0",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 3.21195594684112,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 2.988470730491559,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_0",
+            "plastic_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_0",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.03225806451612903,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.015873015873015872,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 2,
+      "query": "How is recycled paper turned into new products?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "paper_cardboard_preparation.txt::chunk_2",
+        "paper_recycling.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_2",
+            "paper_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.8808292746543884,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_2",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8672714233398438,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_1",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8522576093673706,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 2,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_2",
+            "paper_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 5.7163099334852,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 5.263933915072493,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_2",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 3.1464893433710874,
+              "relevant": true
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_2",
+            "paper_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.03252247488101534,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_2",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.03200204813108039,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.01639344262295082,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 3,
+      "query": "Can magnets separate recyclable metals?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "aluminum_collection_and_sorting.txt::chunk_1",
+        "metal_recycling.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_1",
+            "metal_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 0.8821154832839966,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.8729715347290039,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_2",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.8660945892333984,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "metal_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_1"
+          ],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 2.538833324132752,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 2.290952093545977,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 2.213603199190979,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_1",
+            "metal_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.016129032258064516,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 4,
+      "query": "What should be done before plastic waste collection?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "plastic_recycling.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 2,
+          "retrieved_relevant_ids": [
+            "plastic_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.8539689779281616,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 0.8408108949661255,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_2",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8338422179222107,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 5.803900477259237,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 4.870016499521024,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 3.751844241934146,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 0.03252247488101534,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.01639344262295082,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 5,
+      "query": "Why should greasy paper be sorted carefully?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "paper_cardboard_preparation.txt::chunk_0",
+        "paper_recycling.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_0",
+            "paper_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.860274076461792,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_1",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8374837040901184,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_0",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.834777295589447,
+              "relevant": true
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_0"
+          ],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 5.521919592155924,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 3.9453129344146154,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 3.5851609524181454,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_0"
+          ],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_1",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 6,
+      "query": "How do resin identification codes relate to plastic recyclability?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "plastic_codes_and_recyclability.txt::chunk_0",
+        "plastic_codes_and_recyclability.txt::chunk_1"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_0",
+            "plastic_codes_and_recyclability.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_0",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.9149681329727173,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.8717289566993713,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 0.8440012335777283,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_0",
+            "plastic_codes_and_recyclability.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_0",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 11.013005574872036,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 2.6841010342035694,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 1.6592917654444037,
+              "relevant": true
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_0",
+            "plastic_codes_and_recyclability.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_0",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.03200204813108039,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 0.03200204813108039,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 7,
+      "query": "Are plastic bags and films suitable for a regular household recycling cart?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "plastic_codes_and_recyclability.txt::chunk_1"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.8962567448616028,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.8774285316467285,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 0.8519467115402222,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 9.651947866801295,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 5.773100879280999,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 4.42927765437074,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.03225806451612903,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 0.031746031746031744,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 8,
+      "query": "Why should compostable plastics not automatically be mixed with conventional plastics?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "plastic_codes_and_recyclability.txt::chunk_2"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.8854295611381531,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 0.8343696594238281,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.8324295282363892,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 16.643997663279457,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 4.274842262856343,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 4.195590159319641,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 9,
+      "query": "What determines whether a plastic resin can actually be recycled in a community?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "plastic_codes_and_recyclability.txt::chunk_0",
+        "plastic_codes_and_recyclability.txt::chunk_1"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_0",
+            "plastic_codes_and_recyclability.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.8735281229019165,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_0",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.868217408657074,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "recycling_system_overview.txt::chunk_2",
+              "source": "recycling_system_overview.txt",
+              "score": 0.8593304753303528,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_0",
+            "plastic_codes_and_recyclability.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_0",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 9.150050359986915,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 6.578282790224612,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 4.680160270271233,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "plastic_codes_and_recyclability.txt::chunk_0",
+            "plastic_codes_and_recyclability.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.03252247488101534,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_0",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.03252247488101534,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "recycling_system_overview.txt::chunk_2",
+              "source": "recycling_system_overview.txt",
+              "score": 0.015873015873015872,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 10,
+      "query": "What happens to paper after it is collected for recycling?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "paper_cardboard_preparation.txt::chunk_2",
+        "paper_recycling.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_2",
+            "paper_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.8879603743553162,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_2",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8790459632873535,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_0",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8702408671379089,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [
+            "paper_recycling.txt::chunk_0"
+          ],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_2",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 4.2625739136309475,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 3.573711642866059,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_0",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 3.4940850835788915,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_2",
+            "paper_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_2",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.03252247488101534,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_0",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.031746031746031744,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.01639344262295082,
+              "relevant": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 11,
+      "query": "Should cardboard boxes be flattened before recycling, and what should be removed from food containers?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "paper_cardboard_preparation.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_0",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8955252766609192,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.8572286367416382,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_2",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8522167205810547,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 2,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 12.646727467586008,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_0",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 11.468613963154969,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 7.136958998215342,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_0",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.03252247488101534,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.01639344262295082,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 12,
+      "query": "Which paper products may have special recycling requirements?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "paper_cardboard_preparation.txt::chunk_1"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 2,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_0",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8686726689338684,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_1",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8648505806922913,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_2",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8612349629402161,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 3,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 4.352497947616307,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 3.4849709497769954,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_1",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 3.1499448230796476,
+              "relevant": true
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_1",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.03200204813108039,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_0",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.01639344262295082,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.01639344262295082,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 13,
+      "query": "When might reusing a book or gift bag be preferable to recycling it?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "paper_cardboard_preparation.txt::chunk_1"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_1",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8814202547073364,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.8419122099876404,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_0",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8324917554855347,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_1",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 9.518023400667069,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 3.456832538387171,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_1",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 2.6806340950161984,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_1",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 14,
+      "query": "How can food residue and contaminants affect paper recycling?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "paper_cardboard_preparation.txt::chunk_0",
+        "paper_recycling.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_0",
+            "paper_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.8909869194030762,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_0",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8902795910835266,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_2",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.8735473155975342,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_0",
+            "paper_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_0",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 11.367944545294542,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 4.925174767659476,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 4.5595650701246395,
+              "relevant": true
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "paper_cardboard_preparation.txt::chunk_0",
+            "paper_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_0",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.03252247488101534,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.032266458495966696,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 15,
+      "query": "Why are ferrous metals often separated with magnets?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "aluminum_collection_and_sorting.txt::chunk_1",
+        "metal_recycling.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_1",
+            "metal_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 0.8838556408882141,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.8816816806793213,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_2",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.8700302839279175,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_1",
+            "metal_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 9.548155915698567,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 6.584559963318563,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 2.4802973589139725,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_1",
+            "metal_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.03225806451612903,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_2",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.015873015873015872,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 16,
+      "query": "What happens to recovered metal after it has been sorted?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "metal_recycling.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 2,
+          "retrieved_relevant_ids": [
+            "metal_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_2",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.8856664299964905,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 0.862032949924469,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.8448303937911987,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "metal_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 4.214902287636091,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_1",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 2.710030516683574,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_0",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 2.241688850393319,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "metal_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 0.03252247488101534,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_2",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.01639344262295082,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_1",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 17,
+      "query": "Should aluminum cans always be crushed before collection?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "aluminum_collection_and_sorting.txt::chunk_0",
+        "aluminum_collection_and_sorting.txt::chunk_1"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_0",
+            "aluminum_collection_and_sorting.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.8976545333862305,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.8435326814651489,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.8402088284492493,
+              "relevant": true
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_0",
+            "aluminum_collection_and_sorting.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 10.85425763622851,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 6.204917753697978,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 5.009264632927038,
+              "relevant": true
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_0",
+            "aluminum_collection_and_sorting.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.031746031746031744,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 18,
+      "query": "Why might crushing an aluminum can make automated sorting more difficult?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "aluminum_collection_and_sorting.txt::chunk_1"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 3,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.861309289932251,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_2",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.8434180021286011,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.8340451717376709,
+              "relevant": true
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 2,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 10.045292029014899,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 7.999471776626678,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 2.6524114842427213,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 2,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.03278688524590164,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.03200204813108039,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_2",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 19,
+      "query": "Can ordinary magnets separate aluminum in the same way as iron-containing metals?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "aluminum_collection_and_sorting.txt::chunk_1"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 2,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_2",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.8856581449508667,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.8751384019851685,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 0.8636420965194702,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 2,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_2",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 11.088589910988226,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 10.476143944437304,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 4.749169952293443,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 2,
+          "retrieved_relevant_ids": [
+            "aluminum_collection_and_sorting.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_2",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.03278688524590164,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_1",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 0.03225806451612903,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 0.015873015873015872,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 20,
+      "query": "How is collected glass turned into new glass products?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "glass_recycling.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.8900283575057983,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.8506452441215515,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 0.8388465046882629,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 8.769004924349979,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 4.491544856617272,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_1",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 3.3855003498381873,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.03225806451612903,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 0.015873015873015872,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 21,
+      "query": "What is cullet in the glass recycling process?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "glass_recycling.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.8853743076324463,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 0.838892936706543,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_1",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.8204864859580994,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 5.988015297976034,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 3.174227370076461,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 3.1656338700544318,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_recycling.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 22,
+      "query": "Can ceramics and heat-resistant cookware be placed in the same recycling stream as glass bottles?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "glass_recycling.txt::chunk_0",
+        "glass_sorting_and_safety.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_recycling.txt::chunk_0",
+            "glass_sorting_and_safety.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.9025760293006897,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.8773210048675537,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.8645743131637573,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_recycling.txt::chunk_0",
+            "glass_sorting_and_safety.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 9.391206748497368,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 7.347411097317357,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_2",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 6.688576012614792,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_recycling.txt::chunk_0",
+            "glass_sorting_and_safety.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.03252247488101534,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.03252247488101534,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.015873015873015872,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 23,
+      "query": "Why should broken glass be handled according to local safety instructions?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "glass_sorting_and_safety.txt::chunk_1"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_sorting_and_safety.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_1",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.8674355745315552,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.824557900428772,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.821570098400116,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_sorting_and_safety.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_1",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 8.281911161220828,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 5.998046337313264,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "aluminum_collection_and_sorting.txt::chunk_0",
+              "source": "aluminum_collection_and_sorting.txt",
+              "score": 5.362592774610122,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_sorting_and_safety.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_1",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_recycling.txt::chunk_0",
+              "source": "plastic_recycling.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 24,
+      "query": "Do all glass containers need to be separated by color at home?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "glass_sorting_and_safety.txt::chunk_0"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_sorting_and_safety.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.885394811630249,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.8769848346710205,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.859824001789093,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 2,
+          "retrieved_relevant_ids": [
+            "glass_sorting_and_safety.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 7.721100407271074,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 7.028144209052255,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 4.90504675174419,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_sorting_and_safety.txt::chunk_0"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.03252247488101534,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.03252247488101534,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.031746031746031744,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 25,
+      "query": "How should people decide whether a glass-looking item belongs in a bottle recycling bin?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "glass_sorting_and_safety.txt::chunk_2"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_sorting_and_safety.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.8867952823638916,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.872612476348877,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.8717565536499023,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 2,
+          "retrieved_relevant_ids": [
+            "glass_sorting_and_safety.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_1",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 6.491372661164978,
+              "relevant": false
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 5.052435860984041,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 4.927376645271624,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_sorting_and_safety.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.03252247488101534,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.031746031746031744,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_1",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.01639344262295082,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 26,
+      "query": "Why might metal bottle caps need to be separated from glass containers?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "glass_sorting_and_safety.txt::chunk_2"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_sorting_and_safety.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.9032285213470459,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_1",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.8853448629379272,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.8701155185699463,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_sorting_and_safety.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 10.308938121254196,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_1",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 8.879185007909175,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 4.737317901821262,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "glass_sorting_and_safety.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_2",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_1",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.03225806451612903,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_recycling.txt::chunk_0",
+              "source": "glass_recycling.txt",
+              "score": 0.015873015873015872,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 27,
+      "query": "What are the three broad stages of a recycling system?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "recycling_system_overview.txt::chunk_0",
+        "recycling_system_overview.txt::chunk_1"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "recycling_system_overview.txt::chunk_0",
+            "recycling_system_overview.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "recycling_system_overview.txt::chunk_0",
+              "source": "recycling_system_overview.txt",
+              "score": 0.9019290208816528,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 0.8341237306594849,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.8323626518249512,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "recycling_system_overview.txt::chunk_0",
+            "recycling_system_overview.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "recycling_system_overview.txt::chunk_0",
+              "source": "recycling_system_overview.txt",
+              "score": 7.663944163977219,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 2.934898737370508,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_0",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 2.714291040288792,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "recycling_system_overview.txt::chunk_0",
+            "recycling_system_overview.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "recycling_system_overview.txt::chunk_0",
+              "source": "recycling_system_overview.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 0.03225806451612903,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.015873015873015872,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 28,
+      "query": "Why can contaminants cause problems at a recycling processing facility?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "recycling_system_overview.txt::chunk_0",
+        "recycling_system_overview.txt::chunk_1"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "recycling_system_overview.txt::chunk_0",
+            "recycling_system_overview.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 0.8643114566802979,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "recycling_system_overview.txt::chunk_0",
+              "source": "recycling_system_overview.txt",
+              "score": 0.8588502407073975,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_recycling.txt::chunk_0",
+              "source": "paper_recycling.txt",
+              "score": 0.8498702049255371,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "recycling_system_overview.txt::chunk_0",
+            "recycling_system_overview.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "recycling_system_overview.txt::chunk_0",
+              "source": "recycling_system_overview.txt",
+              "score": 5.528964804046814,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 4.107326299462559,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 3.2185481114988335,
+              "relevant": true
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "recycling_system_overview.txt::chunk_0",
+            "recycling_system_overview.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "recycling_system_overview.txt::chunk_0",
+              "source": "recycling_system_overview.txt",
+              "score": 0.03252247488101534,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 0.032266458495966696,
+              "relevant": true
+            },
+            {
+              "rank": 3,
+              "chunk_id": "glass_sorting_and_safety.txt::chunk_0",
+              "source": "glass_sorting_and_safety.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 29,
+      "query": "Does the fact that a material is recyclable mean every community will collect it?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "recycling_system_overview.txt::chunk_0",
+        "recycling_system_overview.txt::chunk_2"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "recycling_system_overview.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [
+            "recycling_system_overview.txt::chunk_0"
+          ],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "recycling_system_overview.txt::chunk_2",
+              "source": "recycling_system_overview.txt",
+              "score": 0.8963489532470703,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.856953501701355,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "metal_recycling.txt::chunk_0",
+              "source": "metal_recycling.txt",
+              "score": 0.8529763221740723,
+              "relevant": false
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "recycling_system_overview.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [
+            "recycling_system_overview.txt::chunk_0"
+          ],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "recycling_system_overview.txt::chunk_2",
+              "source": "recycling_system_overview.txt",
+              "score": 8.380308143988842,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_0",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 3.279238359033356,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_2",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 3.2121290044559805,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "recycling_system_overview.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [
+            "recycling_system_overview.txt::chunk_0"
+          ],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "recycling_system_overview.txt::chunk_2",
+              "source": "recycling_system_overview.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_0",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": 30,
+      "query": "What factors influence whether collected materials can become new products?",
+      "evaluation_unit": "chunk",
+      "relevant_ids": [
+        "recycling_system_overview.txt::chunk_1",
+        "recycling_system_overview.txt::chunk_2"
+      ],
+      "methods": {
+        "Dense": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "recycling_system_overview.txt::chunk_1",
+            "recycling_system_overview.txt::chunk_2"
+          ],
+          "missed_relevant_ids": [],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 0.853071928024292,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.8457844257354736,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "recycling_system_overview.txt::chunk_2",
+              "source": "recycling_system_overview.txt",
+              "score": 0.8411391973495483,
+              "relevant": true
+            }
+          ]
+        },
+        "BM25": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "recycling_system_overview.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [
+            "recycling_system_overview.txt::chunk_2"
+          ],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 5.181265202284365,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_2",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 3.4128389261996035,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "recycling_system_overview.txt::chunk_0",
+              "source": "recycling_system_overview.txt",
+              "score": 2.8845448951991353,
+              "relevant": false
+            }
+          ]
+        },
+        "Hybrid": {
+          "hit": true,
+          "first_relevant_rank": 1,
+          "retrieved_relevant_ids": [
+            "recycling_system_overview.txt::chunk_1"
+          ],
+          "missed_relevant_ids": [
+            "recycling_system_overview.txt::chunk_2"
+          ],
+          "results": [
+            {
+              "rank": 1,
+              "chunk_id": "recycling_system_overview.txt::chunk_1",
+              "source": "recycling_system_overview.txt",
+              "score": 0.03278688524590164,
+              "relevant": true
+            },
+            {
+              "rank": 2,
+              "chunk_id": "plastic_codes_and_recyclability.txt::chunk_1",
+              "source": "plastic_codes_and_recyclability.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            },
+            {
+              "rank": 3,
+              "chunk_id": "paper_cardboard_preparation.txt::chunk_2",
+              "source": "paper_cardboard_preparation.txt",
+              "score": 0.016129032258064516,
+              "relevant": false
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

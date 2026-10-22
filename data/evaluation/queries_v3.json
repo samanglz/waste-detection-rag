@@ -1,0 +1,197 @@
+[
+  {
+    "query": "PET and HDPE plastic recycling",
+    "relevant_chunks": [
+      "plastic_recycling.txt::chunk_0",
+      "plastic_codes_and_recyclability.txt::chunk_0"
+    ]
+  },
+  {
+    "query": "How is recycled paper turned into new products?",
+    "relevant_chunks": [
+      "paper_recycling.txt::chunk_0",
+      "paper_cardboard_preparation.txt::chunk_2"
+    ]
+  },
+  {
+    "query": "Can magnets separate recyclable metals?",
+    "relevant_chunks": [
+      "metal_recycling.txt::chunk_0",
+      "aluminum_collection_and_sorting.txt::chunk_1"
+    ]
+  },
+  {
+    "query": "What should be done before plastic waste collection?",
+    "relevant_chunks": [
+      "plastic_recycling.txt::chunk_0"
+    ]
+  },
+  {
+    "query": "Why should greasy paper be sorted carefully?",
+    "relevant_chunks": [
+      "paper_recycling.txt::chunk_0",
+      "paper_cardboard_preparation.txt::chunk_0"
+    ]
+  },
+  {
+    "query": "How do resin identification codes relate to plastic recyclability?",
+    "relevant_chunks": [
+      "plastic_codes_and_recyclability.txt::chunk_0",
+      "plastic_codes_and_recyclability.txt::chunk_1"
+    ]
+  },
+  {
+    "query": "Are plastic bags and films suitable for a regular household recycling cart?",
+    "relevant_chunks": [
+      "plastic_codes_and_recyclability.txt::chunk_1"
+    ]
+  },
+  {
+    "query": "Why should compostable plastics not automatically be mixed with conventional plastics?",
+    "relevant_chunks": [
+      "plastic_codes_and_recyclability.txt::chunk_2"
+    ]
+  },
+  {
+    "query": "What determines whether a plastic resin can actually be recycled in a community?",
+    "relevant_chunks": [
+      "plastic_codes_and_recyclability.txt::chunk_0",
+      "plastic_codes_and_recyclability.txt::chunk_1"
+    ]
+  },
+  {
+    "query": "What happens to paper after it is collected for recycling?",
+    "relevant_chunks": [
+      "paper_recycling.txt::chunk_0",
+      "paper_cardboard_preparation.txt::chunk_2"
+    ]
+  },
+  {
+    "query": "Should cardboard boxes be flattened before recycling, and what should be removed from food containers?",
+    "relevant_chunks": [
+      "paper_cardboard_preparation.txt::chunk_0"
+    ]
+  },
+  {
+    "query": "Which paper products may have special recycling requirements?",
+    "relevant_chunks": [
+      "paper_cardboard_preparation.txt::chunk_1"
+    ]
+  },
+  {
+    "query": "When might reusing a book or gift bag be preferable to recycling it?",
+    "relevant_chunks": [
+      "paper_cardboard_preparation.txt::chunk_1"
+    ]
+  },
+  {
+    "query": "How can food residue and contaminants affect paper recycling?",
+    "relevant_chunks": [
+      "paper_cardboard_preparation.txt::chunk_0",
+      "paper_recycling.txt::chunk_0"
+    ]
+  },
+  {
+    "query": "Why are ferrous metals often separated with magnets?",
+    "relevant_chunks": [
+      "metal_recycling.txt::chunk_0",
+      "aluminum_collection_and_sorting.txt::chunk_1"
+    ]
+  },
+  {
+    "query": "What happens to recovered metal after it has been sorted?",
+    "relevant_chunks": [
+      "metal_recycling.txt::chunk_0"
+    ]
+  },
+  {
+    "query": "Should aluminum cans always be crushed before collection?",
+    "relevant_chunks": [
+      "aluminum_collection_and_sorting.txt::chunk_0",
+      "aluminum_collection_and_sorting.txt::chunk_1"
+    ]
+  },
+  {
+    "query": "Why might crushing an aluminum can make automated sorting more difficult?",
+    "relevant_chunks": [
+      "aluminum_collection_and_sorting.txt::chunk_1"
+    ]
+  },
+  {
+    "query": "Can ordinary magnets separate aluminum in the same way as iron-containing metals?",
+    "relevant_chunks": [
+      "aluminum_collection_and_sorting.txt::chunk_1"
+    ]
+  },
+  {
+    "query": "How is collected glass turned into new glass products?",
+    "relevant_chunks": [
+      "glass_recycling.txt::chunk_0"
+    ]
+  },
+  {
+    "query": "What is cullet in the glass recycling process?",
+    "relevant_chunks": [
+      "glass_recycling.txt::chunk_0"
+    ]
+  },
+  {
+    "query": "Can ceramics and heat-resistant cookware be placed in the same recycling stream as glass bottles?",
+    "relevant_chunks": [
+      "glass_sorting_and_safety.txt::chunk_0",
+      "glass_recycling.txt::chunk_0"
+    ]
+  },
+  {
+    "query": "Why should broken glass be handled according to local safety instructions?",
+    "relevant_chunks": [
+      "glass_sorting_and_safety.txt::chunk_1"
+    ]
+  },
+  {
+    "query": "Do all glass containers need to be separated by color at home?",
+    "relevant_chunks": [
+      "glass_sorting_and_safety.txt::chunk_0"
+    ]
+  },
+  {
+    "query": "How should people decide whether a glass-looking item belongs in a bottle recycling bin?",
+    "relevant_chunks": [
+      "glass_sorting_and_safety.txt::chunk_2"
+    ]
+  },
+  {
+    "query": "Why might metal bottle caps need to be separated from glass containers?",
+    "relevant_chunks": [
+      "glass_sorting_and_safety.txt::chunk_2"
+    ]
+  },
+  {
+    "query": "What are the three broad stages of a recycling system?",
+    "relevant_chunks": [
+      "recycling_system_overview.txt::chunk_0",
+      "recycling_system_overview.txt::chunk_1"
+    ]
+  },
+  {
+    "query": "Why can contaminants cause problems at a recycling processing facility?",
+    "relevant_chunks": [
+      "recycling_system_overview.txt::chunk_0",
+      "recycling_system_overview.txt::chunk_1"
+    ]
+  },
+  {
+    "query": "Does the fact that a material is recyclable mean every community will collect it?",
+    "relevant_chunks": [
+      "recycling_system_overview.txt::chunk_2",
+      "recycling_system_overview.txt::chunk_0"
+    ]
+  },
+  {
+    "query": "What factors influence whether collected materials can become new products?",
+    "relevant_chunks": [
+      "recycling_system_overview.txt::chunk_2",
+      "recycling_system_overview.txt::chunk_1"
+    ]
+  }
+]

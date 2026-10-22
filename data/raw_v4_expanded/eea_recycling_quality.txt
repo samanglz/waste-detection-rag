@@ -1,0 +1,141 @@
+Measuring the quality of recycling
+
+Briefing Published 05 Dec 2024
+
+This briefing offers a practical definition of recycling quality as an approach to improving waste management operations and increasing circularity in Europe. It is published in support of the EU’s circular economy action plan.
+
+Key messages
+
+As policies that foster recycling continue to be developed, priority should be given to promoting recycling quality and to increasing recycling volumes (which are currently stagnating at around 46%). A high-quality recycling approach aims to deliver not only large quantities of recycled materials but also to keep their value high by preserving their functionality and optimising material loops, all of which are essential pillars of a circular economy.
+
+High-quality recycling goes beyond assessing the technical properties of recycled materials. It means optimising the entire recycling system by increasing its efficiency in capturing recyclables, using cutting-edge recycling technologies to preserve material functionality and ensuring secondary materials find their way into new recyclable products.
+
+Any high-quality recycling option must be realised without generating significant environmental impacts. Therefore, maximising the environmental benefits during the entire recycling value chain must be a factor in high-quality recycling.
+
+Measures to increase recycling quality include avoiding mixed collection systems, investing in effective sorting technologies like optical sorting and using secondary material markets to channel recyclables into new products that also have a high recycling potential. The region where such conditions are most likely to occur in the world is the EU.
+
+A case study for PET bottles shows that the highest quality is achieved in a closed-loop system where the material is collected through deposit-refund schemes and recycled into bottles again. However, other material streams may present different optimal modalities as high-quality recycling also depends on each material/product stream.
+
+Introduction
+
+EU waste policy-making, spearheaded by the Waste Framework Directive and its binding recycling targets (Figure 1), has traditionally focused on increasing the separate collection of waste material to recycle it. Historically, this has been a successful approach to improving waste management — with almost half of the waste generated being recycled — and to creating a supply push for recyclables in secondary markets by delivering these materials to manufacturers in Europe and elsewhere. However, in recent years the recycling shares of key waste streams have been stagnating. A new approach to recycling policy might therefore be timely.
+
+In the context of a circular economy, where the value of products and materials should be kept as high as possible for as long as possible (EEA, 2023a), increasing the volumes of recyclables needs to be complemented by increasing the quality of the recycling system.
+
+Figure 1. Recycling shares for key waste streams in the EU-27
+
+Please select a resource that has a preview image available.
+
+In a circular recycling system, which spans waste collection all the way to returning secondary materials back into the economy, the focus needs to be maintained on addressing quality aspects and ensuring the value of the resources in collected waste. Good quality recycling is a necessary condition for the secondary raw material markets to develop (EEA, 2022). These secondary markets are the mechanism to ensure that the efforts invested in waste management operations are compensated by the full use of recyclables in new manufacturing processes. A high-quality recycled material:
+
+increases the trust of manufacturers in secondary raw materials;
+
+fetches competitive prices that help fund high-end recycling systems;
+
+contributes to closed material loops which is one of the fundamental objectives of a circular economy.
+
+This focus on recycling quality is recognised by EU legislation as the Waste Framework Directive (EU, 2008) calls for Member States to ‘take measures to promote high-quality recycling’. However, no definition of recycling quality exists in the directive and no commonly accepted methodology to measure it has been developed. In this briefing, we propose a definition of recycling quality that is geared towards developing a method for assessing the quality of recycling pathways. These pathways are defined as discrete combinations of collection and sorting systems, recycling technologies and the final use of recycled materials in specific new products. We demonstrate the application of the method using bottles made of polyethylene terephthalate (PET).
+
+Defining the quality of recycling and optimising recycling pathways
+
+The Waste Framework Directive — the main governing EU law for waste in Europe — mandates Member States to take measures to promote high-quality recycling. Neither that directive nor other pieces of EU policy explicitly define recycling quality, although several attempts have been made to do so by researchers. These attempts often depend on the context, for example, the material that needs to be assessed for recycling quality. One example is the definition proposed by Grant (2020) according to which recycling quality is determined by ‘the extent to which, through the recycling chain, the distinct characteristics of the material (the polymer, glass or paper fibre) are preserved or recovered so as to maximise their potential to be re-used in the circular economy’.
+
+However, while assessing the quality of the recyclate is very relevant, focussing on the material’s quality alone might miss important aspects. For example, the process to produce this high-quality recyclate might lead to high environmental impacts or generate large losses along the chain from collection to the final recyclate. Widening the perspective from the quality of a recyclate to the quality of a recycling pathway for a specific material and ultimately to the recycling system that combines different recycling pathways might therefore give a more complete picture and help guide policies to achieve overall higher recycling quality.
+
+Using this as a starting point, Caro et al.(2023) added additional elements to the definition with a view to making it operational in terms of measuring the quality of recycling. This operational definition claims that recycling quality goes beyond the preservation of the material’s technical properties and is expanded to include circularity and environmental aspects. Therefore, this more complete definition comprises assessment of (1) how much primary material was avoided because of recycling; (2) whether the recycled material will be available for another recycling loop in the future or is lost; and (3) the net environmental benefit that recycling achieves because of the avoidance of primary material production.
+
+Figure 2. The three pillars of recycling quality
+
+This framework can be used to compare different recycling pathways (combinations of recycling steps) for a specific material. It is used as a basis for the EEA methodology presented in this briefing. It is important to note, at this stage, that the methodology aims to assess recycling quality without looking into costs.
+
+An operational modelling framework for recycling quality
+
+To operationalise the framework presented above, information needs to be collected on the specific recycling pathways employed so that targeted materials are converted into secondary raw materials. This information relates to:
+
+collection systems, for example mixed plastics collection or deposit-refund schemes;
+
+sorting systems that indicate the level of rejects during sorting;
+
+recycling technology and an understanding of which technical properties of the recyclable are preserved throughout the recycling process;
+
+the final application of recyclable materials into new products so that the possibility for another future recycling cycle is assessed.
+
+Based on the above, the quality of recycling for a particular pathway can be expressed as a function of three dimensions, as shown in Figure 2.
+
+Efficiency refers to the pathway’s ability to capture and move as much of the waste material as possible through the pathway, which leads to a higher quality of recycling. For example, collecting PET bottles through deposit refund schemes leads to more homogenous and clean recyclables than collecting them mixed with other plastics. Sorting technologies that maximise the yield and the homogeneity of the targeted recyclable should receive a higher recycling quality score.
+
+The loop dimension aims to evaluate how the recycling pathway maintains the material's properties and functionality for subsequent recycling loops, avoiding downcycling. For example, downcycling waste concrete by using it under new road pavements prevents the recycled concrete from ever being recycled again.
+
+The environmental impact dimension encompasses the environmental impacts and benefits of recycling. On the one hand, collection, sorting and recycling processes create a variety of environmental pressures. On the other hand, a recycling pathway that manages to preserve a material’s properties that are valuable for its next use in new products (e.g. strength, elasticity and resistance to heat) would make it less necessary to add primary material in a new application. In this way, the environmental impacts from the extracting and processing of new primary material are avoided.
+
+The methodology has several limitations, which are mainly due to limitations in data availability. For example, environmental benefits are currently only approximated through a carbon footprint analysis. Moreover, reliable data might be lacking for other factors as well. The methodology therefore includes some options to simplify the process so that data of lower granularity can be used.
+
+When calculating a recycling score each dimension is assigned a score between 0 and 1. To sum up the scores of the various dimensions into a total recycling quality score for a recycling pathway, a 40% weight is given to the environmental impact dimension and a 30% weight each to the other two dimensions. A recycling quality score can fluctuate between 0 (lowest quality) and 1 (highest quality).
+
+In practice, recycling in a specific geographical region (municipality, region, country or EU) happens by employing multiple recycling pathways. Summing up the different recycling pathways according to their respective market shares provides a recycling quality score for a recycling system at a national or EU level, for example. Moreover, calculating the recycling quality scores for different years for the same geographical region can provide information on whether or not the quality of the overall recycling system for a specific material is improving.
+
+A case study — estimating the quality of the EU’s PET recycling system
+
+To demonstrate the application of our methodology on a real case we have selected PET recycling. PET is a plastic polymer, widely used in packaging (mainly bottles) and is heavily targeted by recycling operations due to its value and also recycled content requirements in EU legislation . PET is typically collected for recycling through deposit-refund schemes (DRS) or is mixed with other plastic polymers. It is mainly recycled mechanically and used to produce new packaging or to produce fibres for textiles. Therefore, the prevalent recycling pathways for PET in the EU are:
+
+Pathway 1 : separate mixed plastics collection –> mechanical recycling –> packaging;
+
+Pathway 2 : separate mixed plastics collection –> mechanical recycling –> fibres;
+
+Pathway 3 : DRS –> mechanical recycling –> packaging;
+
+Pathway 4 : DRS –> mechanical recycling –> fibres.
+
+Figure 3 shows the mass flow of waste PET packaging in 2018 and 2020 arranged in four recycling pathways. When attempting to evaluate the recycling quality of these 2 years, we need to estimate the three components of our recycling quality estimation methodology.
+
+Figure 3. Mass flow for PET recycling in 2018 and 2020
+
+Starting with efficiency , the separate collection of PET packaging waste for recycling increased between 2018 and 2020. In 2018, only 44% of generated PET was mechanically recycled, while in 2020 improved collection and sorting efficiency increased this share to 53%. This efficiency gain is the result of a combination of collecting PET through DRS and through mixed plastics collection. DRS has much lower losses of material during sorting compared to mixed plastics collection.
+
+Moving to the loop potential, the output of the mechanical recycling process is assumed to be used mainly in packaging, (76%) with around 24% used for textiles. This share was stable between 2018 and 2020. It is assumed that using recycled PET in new packaging has a higher loop potential (scored at 0.8) than if it is used to produce textile fibres (scored at 0.4). This is because packaging currently has established recycling systems and relatively high recycling rates while textile recycling systems are only beginning to be developed in the EU. However, as the share for product applications of the recycled PET is assumed to be the same, the material’s loop potential has not led to any change in recycling quality between 2018 and 2020.
+
+Concerning the environmental aspect of recycling quality score, the differences between the four recycling pathways in terms of the environmental benefit they deliver are small ( see technical report for more details). The benefits are small because all pathways lead to the substitution of primary plastics to a very high extent, with a slightly higher substitution potential when recycling PET into new packaging. Similar to the loop parameter, no changes in recycling quality are calculated due to the environmental parameter, as the share in the product applications of the recycled PET is assumed to be the same between 2018 and 2020.
+
+Table 1 shows the results of our methodology applied to PET recycling in 2018 and 2020. The application shows that the quality of the 2020 recycling system has increased compared to 2018 because collection efficiency increased substantially between the two years.
+
+Table 1. Recycling quality scores for each PET recycling pathway in 2018 and 2020
+
+Besides generating actual ratings of recycling quality when comparing the 2 years, the methodology can yield some interesting policy-relevant conclusions:
+
+The highest quality collection system is delivered by using DRS as it is a much more effective system for capturing waste PET.
+
+For the time being, using recycled PET in new packaging products leads to a higher recycling quality. The reasons are that the new packaging has a much higher chance of being recycled again in the future and leads to a slightly higher substitution of primary plastics compared to the textiles pathway. This conclusion might change in the future with the mandatory roll-out of the separate collection of textile waste soon to be implemented in the EU and with potential technical developments for recycling textile fibres.
+
+The lowest recycling quality is linked mainly to mixed plastics collection because recovering PET from the collected plastics leads to substantial losses.
+
+Policy measures at the national or municipal levels to promote DRS over mixed plastics collection will improve the quality of recycling, leading to higher environmental benefits and more loops of the PET within the economy, which are both objectives of the circular economy.
+
+We already provide recycling quality assessments for biowaste and textiles in the technical report underpinning this briefing and we are working to apply our method to glass as well. Currently, the lack of customised data that can account for mass flows along specific pathways and the lack of environmental information for specific recycling technologies and applications are the most important barriers to applying our methodology to other materials.
+
+Promoting high quality recycling in Europe
+
+Although the quality of a recycling pathway is measured along the whole recycling value chain, the opportunities for high quality recycling are determined to a large extent much earlier in a product’s life cycle. Circular design that leads to the generation of homogenous and uncontaminated recyclable materials is key to increasing the quality of a recycling pathway. Recent policy efforts at EU level, such as the Ecodesign for Sustainable Products Regulation (EU, 2024), recognise this. Therefore, there is reason to believe that recycling quality in Europe will increase in the future.
+
+Figure 4. The recycling value chain and opportunities for increasing recycling quality
+
+Moving to the recycling value chain (Figure 4), the type of collection system employed matters as it determines to a large extent the efficiency element of recycling quality (EEA, 2023b). In this respect, mixed collection systems targeting more than one material should be avoided as they tend to lead to higher materials losses and to low efficiency. However, some comingled collection of easy-to separate materials could still lead to high capture rates. Similarly, sorting systems that employ technologies that minimise losses, such as optical sorting for glass and plastics, also have a high efficiency potential.
+
+The type of recycling technology used to process the recyclables is crucial. Technologies that manage to preserve material properties should be preferred so that there is no need to add primary material to give the recyclables good technical properties. This approach therefore avoids the environmental impacts from primary material production. For example, crushing recycled concrete for use in backfilling operations makes little use of its technical properties. The primary materials avoided are gravel and sand, which are produced with limited environmental impacts. If recycled concrete is processed into new concrete mixes, exploiting the concrete’s strength, it would then displace cement, which has a very high carbon footprint.
+
+Finally, secondary raw material markets need to be effective in delivering recyclables to manufacturers of new products with a high subsequent recycling potential so that further loops are ensured for the recyclables. Using recycled materials in new products that will be sold within Europe would increase the possibility for these new products to be recycled again due to strong EU waste legislation, thus increasing recycling quality. The uncontrolled export of waste material to destinations where recycling technologies are less advanced and new products are less likely to be recycled again would lead to suboptimal recycling quality.
+
+Briefing no. 15/2024 Title: Measuring the quality of recycling EN HTML: TH-01-24-011-EN-Q - ISBN: 978-92-9480-687-1 - ISSN: 2467-3196 - doi: 10.2800/9302034
+
+Caro, D., et al., 2023, Towards a better definition and calculation of recycling ( https://publications.jrc.ec.europa.eu/repository/handle/JRC131531 ) accessed 14 October 2024.
+
+EEA, 2022, Investigating Europe′s secondary raw material markets, Publication No EEA Report No 12/2022 ( https://www.eea.europa.eu/publications/investigating-europes-secondary-raw-material ) accessed 14 October 2024.
+
+EEA, 2023a, Accelerating the circular economy in Europe, Publication No EEA Report 13/2023 ( https://www.eea.europa.eu/publications/accelerating-the-circular-economy ) accessed 14 October 2024.
+
+EEA, 2023b, ‘Economic instruments and separate collection systems — key strategies to increase recycling’, European Environment Agency ( https://www.eea.europa.eu/publications/economic-instruments-and-separate-collection/economic-instruments-and-separate-collection ) accessed 14 October 2024.
+
+EU, 2008, Directive 2008/98/EC of the European Parliament and of the Council of 19 November 2008 on waste and repealing certain Directives (Text with EEA relevance) (OJ L 312, 22.11.2008, pop. 3-30).
+
+EU, 2024, Regulation (EU) 2024/1781 of the European Parliament and of the Council of 13 June 2024 establishing a framework for the setting of ecodesign requirements for sustainable products, amending Directive (EU) 2020/1828 and Regulation (EU) 2023/1542 and repealing Directive 2009/125/EC (Text with EEA relevance) (PE/106/2023/REV/1).
+
+Grant, A., et al., 2020, Quality of Recycling - Towards an operational definition, Publications Office of the European Union, Luxembourg ( https://publications.jrc.ec.europa.eu/repository/handle/JRC122293 ) accessed 14 October 2024.

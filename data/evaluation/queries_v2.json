@@ -1,0 +1,185 @@
+[
+  {
+    "query": "PET and HDPE plastic recycling",
+    "relevant_sources": [
+      "plastic_recycling.txt"
+    ]
+  },
+  {
+    "query": "How is recycled paper turned into new products?",
+    "relevant_sources": [
+      "paper_recycling.txt"
+    ]
+  },
+  {
+    "query": "Can magnets separate recyclable metals?",
+    "relevant_sources": [
+      "metal_recycling.txt"
+    ]
+  },
+  {
+    "query": "What should be done before plastic waste collection?",
+    "relevant_sources": [
+      "plastic_recycling.txt"
+    ]
+  },
+  {
+    "query": "Why should greasy paper be sorted carefully?",
+    "relevant_sources": [
+      "paper_recycling.txt"
+    ]
+  },
+  {
+    "query": "How do resin identification codes relate to plastic recyclability?",
+    "relevant_sources": [
+      "plastic_codes_and_recyclability.txt"
+    ]
+  },
+  {
+    "query": "Are plastic bags and films suitable for a regular household recycling cart?",
+    "relevant_sources": [
+      "plastic_codes_and_recyclability.txt"
+    ]
+  },
+  {
+    "query": "Why should compostable plastics not automatically be mixed with conventional plastics?",
+    "relevant_sources": [
+      "plastic_codes_and_recyclability.txt"
+    ]
+  },
+  {
+    "query": "What determines whether a plastic resin can actually be recycled in a community?",
+    "relevant_sources": [
+      "plastic_codes_and_recyclability.txt"
+    ]
+  },
+  {
+    "query": "What happens to paper after it is collected for recycling?",
+    "relevant_sources": [
+      "paper_recycling.txt",
+      "paper_cardboard_preparation.txt"
+    ]
+  },
+  {
+    "query": "Should cardboard boxes be flattened before recycling, and what should be removed from food containers?",
+    "relevant_sources": [
+      "paper_cardboard_preparation.txt"
+    ]
+  },
+  {
+    "query": "Which paper products may have special recycling requirements?",
+    "relevant_sources": [
+      "paper_cardboard_preparation.txt"
+    ]
+  },
+  {
+    "query": "When might reusing a book or gift bag be preferable to recycling it?",
+    "relevant_sources": [
+      "paper_cardboard_preparation.txt"
+    ]
+  },
+  {
+    "query": "How can food residue and contaminants affect paper recycling?",
+    "relevant_sources": [
+      "paper_cardboard_preparation.txt",
+      "paper_recycling.txt"
+    ]
+  },
+  {
+    "query": "Why are ferrous metals often separated with magnets?",
+    "relevant_sources": [
+      "metal_recycling.txt"
+    ]
+  },
+  {
+    "query": "What happens to recovered metal after it has been sorted?",
+    "relevant_sources": [
+      "metal_recycling.txt"
+    ]
+  },
+  {
+    "query": "Should aluminum cans always be crushed before collection?",
+    "relevant_sources": [
+      "aluminum_collection_and_sorting.txt"
+    ]
+  },
+  {
+    "query": "Why might crushing an aluminum can make automated sorting more difficult?",
+    "relevant_sources": [
+      "aluminum_collection_and_sorting.txt"
+    ]
+  },
+  {
+    "query": "Can ordinary magnets separate aluminum in the same way as iron-containing metals?",
+    "relevant_sources": [
+      "aluminum_collection_and_sorting.txt"
+    ]
+  },
+  {
+    "query": "How is collected glass turned into new glass products?",
+    "relevant_sources": [
+      "glass_recycling.txt"
+    ]
+  },
+  {
+    "query": "What is cullet in the glass recycling process?",
+    "relevant_sources": [
+      "glass_recycling.txt"
+    ]
+  },
+  {
+    "query": "Can ceramics and heat-resistant cookware be placed in the same recycling stream as glass bottles?",
+    "relevant_sources": [
+      "glass_sorting_and_safety.txt",
+      "glass_recycling.txt"
+    ]
+  },
+  {
+    "query": "Why should broken glass be handled according to local safety instructions?",
+    "relevant_sources": [
+      "glass_sorting_and_safety.txt"
+    ]
+  },
+  {
+    "query": "Do all glass containers need to be separated by color at home?",
+    "relevant_sources": [
+      "glass_sorting_and_safety.txt"
+    ]
+  },
+  {
+    "query": "How should people decide whether a glass-looking item belongs in a bottle recycling bin?",
+    "relevant_sources": [
+      "glass_sorting_and_safety.txt"
+    ]
+  },
+  {
+    "query": "Why might metal bottle caps need to be separated from glass containers?",
+    "relevant_sources": [
+      "glass_sorting_and_safety.txt"
+    ]
+  },
+  {
+    "query": "What are the three broad stages of a recycling system?",
+    "relevant_sources": [
+      "recycling_system_overview.txt"
+    ]
+  },
+  {
+    "query": "Why can contaminants cause problems at a recycling processing facility?",
+    "relevant_sources": [
+      "recycling_system_overview.txt"
+    ]
+  },
+  {
+    "query": "Does the fact that a material is recyclable mean every community will collect it?",
+    "relevant_sources": [
+      "recycling_system_overview.txt"
+    ]
+  },
+  {
+    "query": "What factors influence whether collected materials can become new products?",
+    "relevant_sources": [
+      "recycling_system_overview.txt"
+    ]
+  }
+]

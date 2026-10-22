@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "document_id": "epa_recycling_basics",
+      "title": "Recycling Basics and Benefits",
+      "publisher": "U.S. Environmental Protection Agency",
+      "source_type": "official_guidance",
+      "url": "https://www.epa.gov/recycle/recycling-basics-and-benefits",
+      "language": "en",
+      "topics": [
+        "recycling",
+        "waste_management",
+        "environment"
+      ],
+      "status": "downloaded",
+      "license_status": "verify_before_full_text_storage",
+      "local_path": "data/raw_v4_expanded/epa_recycling_basics.txt",
+      "sha256": "bf279098b34b4ae35d4d874ca8dda3cfd7624ea8f3da540573882b4d1a308e16"
+    },
+    {
+      "document_id": "epa_common_recyclables",
+      "title": "How Do I Recycle Common Recyclables?",
+      "publisher": "U.S. Environmental Protection Agency",
+      "source_type": "official_guidance",
+      "url": "https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+      "language": "en",
+      "topics": [
+        "paper",
+        "cardboard",
+        "glass",
+        "metal",
+        "plastic"
+      ],
+      "status": "downloaded",
+      "license_status": "verify_before_full_text_storage",
+      "local_path": "data/raw_v4_expanded/epa_common_recyclables.txt",
+      "sha256": "7b8040c42dfa1db69d337315bbdb2176b815c9f43c17350db5ef0a99936e478b"
+    },
+    {
+      "document_id": "epa_plastic_best_practices",
+      "title": "Best Practices",
+      "publisher": "U.S. Environmental Protection Agency",
+      "source_type": "official_guidance",
+      "url": "https://www.epa.gov/plastics/best-practices",
+      "language": "en",
+      "topics": [
+        "plastic",
+        "collection",
+        "sorting",
+        "waste_management"
+      ],
+      "status": "downloaded",
+      "license_status": "verify_before_full_text_storage",
+      "local_path": "data/raw_v4_expanded/epa_plastic_best_practices.txt",
+      "sha256": "c713a76d103d2c50c84f11bb67779e4fffbb7ce002708a16644a77f53efd6fbd"
+    },
+    {
+      "document_id": "eea_recycling_quality",
+      "title": "Measuring the Quality of Recycling",
+      "publisher": "European Environment Agency",
+      "source_type": "official_report",
+      "url": "https://www.eea.europa.eu/en/analysis/publications/measuring-the-quality-of-recycling",
+      "language": "en",
+      "topics": [
+        "recycling_quality",
+        "sorting",
+        "plastic",
+        "evaluation"
+      ],
+      "status": "validated",
+      "license_status": "verify_before_full_text_storage",
+      "local_path": "data/raw_v4_expanded/eea_recycling_quality.txt",
+      "sha256": "3d53fe7c5be9640a6224e0a8802080c02e28f301f3f6611b5d954503a630672b",
+      "retrieved_at": "2026-10-20T10:13:24.451167+00:00",
+      "final_url": "https://www.eea.europa.eu/en/analysis/publications/measuring-the-quality-of-recycling",
+      "http_status": 200,
+      "extracted_chars": 20547,
+      "page_title": "Measuring the quality of recycling | Publications | European Environment Agency (EEA)",
+      "extraction_status": "validated"
+    },
+    {
+      "document_id": "eea_separate_collection",
+      "title": "Economic Instruments and Separate Collection Systems",
+      "publisher": "European Environment Agency",
+      "source_type": "official_report",
+      "url": "https://www.eea.europa.eu/en/analysis/publications/economic-instruments-and-separate-collection",
+      "language": "en",
+      "topics": [
+        "collection",
+        "paper",
+        "glass",
+        "metal",
+        "plastic"
+      ],
+      "status": "validated",
+      "license_status": "verify_before_full_text_storage",
+      "local_path": "data/raw_v4_expanded/eea_separate_collection.txt",
+      "sha256": "d54058e4a604e85d653185a7b8b4ea984090a617f2eaa5fd51cbc0d146386535",
+      "retrieved_at": "2026-10-20T10:13:25.513417+00:00",
+      "final_url": "https://www.eea.europa.eu/en/analysis/publications/economic-instruments-and-separate-collection",
+      "http_status": 200,
+      "extracted_chars": 19818,
+      "page_title": "Economic instruments and separate collection systems — key strategies to increase recycling | Publications | European Environment Agency (EEA)",
+      "extraction_status": "validated"
+    },
+    {
+      "document_id": "eea_circular_plastics",
+      "title": "Pathways towards Circular Plastics in Europe",
+      "publisher": "European Environment Agency",
+      "source_type": "official_report",
+      "url": "https://www.eea.europa.eu/en/analysis/publications/pathways-towards-circular-plastics",
+      "language": "en",
+      "topics": [
+        "plastic",
+        "circular_economy",
+        "sorting",
+        "recycling"
+      ],
+      "status": "validated",
+      "license_status": "verify_before_full_text_storage",
+      "local_path": "data/raw_v4_expanded/eea_circular_plastics.txt",
+      "sha256": "0b42beb887c0ba41aa2e44c44f0b29a86befb80057aa14d277986b1214dd1810",
+      "retrieved_at": "2026-10-20T10:13:26.231727+00:00",
+      "final_url": "https://www.eea.europa.eu/en/analysis/publications/pathways-towards-circular-plastics",
+      "http_status": 200,
+      "extracted_chars": 24396,
+      "page_title": "Pathways towards circular plastics in Europe — good practice examples from countries, business and citizens | Publications | European Environment Agency (EEA)",
+      "extraction_status": "validated"
+    },
+    {
+      "document_id": "oecd_global_plastics_outlook",
+      "title": "Global Plastics Outlook",
+      "publisher": "OECD",
+      "source_type": "official_report",
+      "url": "https://www.oecd.org/en/publications/global-plastics-outlook_de747aef-en.html",
+      "language": "en",
+      "topics": [
+        "plastic",
+        "waste_management",
+        "recycling",
+        "policy"
+      ],
+      "status": "downloaded",
+      "license_status": "verify_before_full_text_storage",
+      "local_path": "data/raw_v4_expanded/oecd_global_plastics_outlook.txt",
+      "sha256": "c523e207aa4d22dc9c6793c4cec50b0f6dfbe6730a93d2c50129c7c22e37e382"
+    },
+    {
+      "document_id": "oecd_recycled_plastics_markets",
+      "title": "Improving Markets for Recycled Plastics",
+      "publisher": "OECD",
+      "source_type": "official_report",
+      "url": "https://www.oecd.org/en/publications/improving-markets-for-recycled-plastics_9789264301016-en.html",
+      "language": "en",
+      "topics": [
+        "plastic",
+        "recycling",
+        "circular_economy",
+        "markets"
+      ],
+      "status": "downloaded",
+      "license_status": "verify_before_full_text_storage",
+      "local_path": "data/raw_v4_expanded/oecd_recycled_plastics_markets.txt",
+      "sha256": "0cc34ae4de678ece1f7c8441da73be1026b0b901dda8582c9b7eb616eeccc346"
+    },
+    {
+      "document_id": "epa_international_waste_agreements",
+      "title": "International Agreements on Transboundary Shipments of Hazardous Waste",
+      "publisher": "U.S. Environmental Protection Agency",
+      "source_type": "official_guidance",
+      "url": "https://www.epa.gov/hwgenerators/international-agreements-transboundary-shipments-hazardous-waste",
+      "language": "en",
+      "topics": [
+        "hazardous_waste",
+        "transboundary_shipments",
+        "Basel_Convention",
+        "OECD",
+        "bilateral_agreements",
+        "waste_management"
+      ],
+      "status": "downloaded",
+      "license_status": "verify_before_full_text_storage",
+      "local_path": "data/raw_v4_expanded/epa_international_waste_agreements.txt",
+      "sha256": "883c6299a7b808572ffaac52913592d9cf95ab7464e25e8368bcd63cc03a7c81"
+    }
+  ]
+}

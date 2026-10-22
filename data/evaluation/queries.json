@@ -1,0 +1,32 @@
+[
+  {
+    "query": "PET and HDPE plastic recycling",
+    "relevant_sources": [
+      "plastic_recycling.txt"
+    ]
+  },
+  {
+    "query": "How is recycled paper turned into new products?",
+    "relevant_sources": [
+      "paper_recycling.txt"
+    ]
+  },
+  {
+    "query": "Can magnets separate recyclable metals?",
+    "relevant_sources": [
+      "metal_recycling.txt"
+    ]
+  },
+  {
+    "query": "What should be done before plastic waste collection?",
+    "relevant_sources": [
+      "plastic_recycling.txt"
+    ]
+  },
+  {
+    "query": "Why should greasy paper be sorted carefully?",
+    "relevant_sources": [
+      "paper_recycling.txt"
+    ]
+  }
+]

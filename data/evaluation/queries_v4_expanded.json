@@ -1,0 +1,102 @@
+[
+  {
+    "query": "What materials can commonly be recycled, and how should they be prepared?",
+    "relevant_chunks": [
+      "epa_common_recyclables.txt::chunk_2",
+      "epa_common_recyclables.txt::chunk_24"
+    ]
+  },
+  {
+    "query": "How should plastic waste be collected, sorted, and recycled?",
+    "relevant_chunks": [
+      "eea_circular_plastics.txt::chunk_14",
+      "oecd_recycled_plastics_markets.txt::chunk_380",
+      "oecd_recycled_plastics_markets.txt::chunk_407"
+    ]
+  },
+  {
+    "query": "What are the main economic barriers to markets for recycled plastics?",
+    "relevant_chunks": [
+      "oecd_recycled_plastics_markets.txt::chunk_110",
+      "oecd_recycled_plastics_markets.txt::chunk_112",
+      "oecd_recycled_plastics_markets.txt::chunk_135",
+      "oecd_recycled_plastics_markets.txt::chunk_364"
+    ]
+  },
+  {
+    "query": "How do contamination and material quality affect recycling?",
+    "relevant_chunks": [
+      "eea_recycling_quality.txt::chunk_1",
+      "eea_recycling_quality.txt::chunk_5",
+      "eea_recycling_quality.txt::chunk_11"
+    ]
+  },
+  {
+    "query": "What policies can governments use to reduce plastic pollution?",
+    "relevant_chunks": [
+      "oecd_recycled_plastics_markets.txt::chunk_5",
+      "oecd_recycled_plastics_markets.txt::chunk_380",
+      "oecd_global_plastics_outlook.txt::chunk_325",
+      "oecd_global_plastics_outlook.txt::chunk_461"
+    ]
+  },
+  {
+    "query": "How can separate waste collection improve recycling outcomes?",
+    "relevant_chunks": [
+      "eea_separate_collection.txt::chunk_5",
+      "eea_separate_collection.txt::chunk_0",
+      "oecd_global_plastics_outlook.txt::chunk_326",
+      "oecd_global_plastics_outlook.txt::chunk_327"
+    ]
+  },
+  {
+    "query": "What are the environmental benefits and limitations of recycling?",
+    "relevant_chunks": [
+      "epa_recycling_basics.txt::chunk_1",
+      "oecd_global_plastics_outlook.txt::chunk_326",
+      "oecd_global_plastics_outlook.txt::chunk_159"
+    ]
+  },
+  {
+    "query": "How does international trade affect plastic waste management?",
+    "relevant_chunks": [
+      "oecd_recycled_plastics_markets.txt::chunk_356",
+      "oecd_global_plastics_outlook.txt::chunk_554",
+      "oecd_global_plastics_outlook.txt::chunk_49",
+      "oecd_global_plastics_outlook.txt::chunk_361"
+    ]
+  },
+  {
+    "query": "What challenges prevent recycled plastics from competing with virgin plastics?",
+    "relevant_chunks": [
+      "oecd_recycled_plastics_markets.txt::chunk_343",
+      "oecd_recycled_plastics_markets.txt::chunk_344",
+      "oecd_recycled_plastics_markets.txt::chunk_345"
+    ]
+  },
+  {
+    "query": "How can recycling systems improve collection infrastructure and sorting?",
+    "relevant_chunks": [
+      "eea_separate_collection.txt::chunk_22",
+      "eea_circular_plastics.txt::chunk_14",
+      "oecd_global_plastics_outlook.txt::chunk_327",
+      "oecd_recycled_plastics_markets.txt::chunk_380"
+    ]
+  },
+  {
+    "query": "What role do consumers and public awareness play in recycling?",
+    "relevant_chunks": [
+      "oecd_recycled_plastics_markets.txt::chunk_397",
+      "oecd_recycled_plastics_markets.txt::chunk_403",
+      "oecd_global_plastics_outlook.txt::chunk_405"
+    ]
+  },
+  {
+    "query": "How can circular economy policies reduce plastic waste generation?",
+    "relevant_chunks": [
+      "oecd_recycled_plastics_markets.txt::chunk_132",
+      "oecd_global_plastics_outlook.txt::chunk_92",
+      "oecd_global_plastics_outlook.txt::chunk_325"
+    ]
+  }
+]

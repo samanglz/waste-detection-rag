@@ -1,0 +1,61 @@
+{
+  "recycling_system_overview.txt": {
+    "title": "The U.S. Recycling System",
+    "source_url": "https://www.epa.gov/circulareconomy/us-recycling-system",
+    "topic": "recycling_process",
+    "jurisdiction": "United States",
+    "source_type": "official_government_guidance"
+  },
+  "plastic_codes_and_recyclability.txt": {
+    "title": "Plastic Resin Codes and Recyclability",
+    "source_url": "https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+    "topic": "plastic_recycling",
+    "jurisdiction": "United States",
+    "source_type": "official_government_guidance"
+  },
+  "paper_cardboard_preparation.txt": {
+    "title": "Paper and Cardboard Recycling Preparation",
+    "source_url": "https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+    "topic": "paper_cardboard",
+    "jurisdiction": "United States",
+    "source_type": "official_government_guidance"
+  },
+  "glass_sorting_and_safety.txt": {
+    "title": "Glass Recycling and Safe Sorting",
+    "source_url": "https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+    "topic": "glass_recycling",
+    "jurisdiction": "United States",
+    "source_type": "official_government_guidance"
+  },
+  "aluminum_collection_and_sorting.txt": {
+    "title": "Aluminum Recycling and Sorting",
+    "source_url": "https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+    "topic": "metal_recycling",
+    "jurisdiction": "United States",
+    "source_type": "official_government_guidance"
+  },
+  "glass_recycling.txt": {
+    "title": "Glass Recycling Basics",
+    "topic": "glass_recycling",
+    "jurisdiction": "General; local rules vary",
+    "source_type": "local_curated_summary"
+  },
+  "metal_recycling.txt": {
+    "title": "Metal Recycling Basics",
+    "topic": "metal_recycling",
+    "jurisdiction": "General; local rules vary",
+    "source_type": "local_curated_summary"
+  },
+  "paper_recycling.txt": {
+    "title": "Paper Recycling Basics",
+    "topic": "paper_recycling",
+    "jurisdiction": "General; local rules vary",
+    "source_type": "local_curated_summary"
+  },
+  "plastic_recycling.txt": {
+    "title": "Plastic Recycling Basics",
+    "topic": "plastic_recycling",
+    "jurisdiction": "General; local rules vary",
+    "source_type": "local_curated_summary"
+  }
+}

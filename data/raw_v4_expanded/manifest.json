@@ -1,0 +1,60 @@
+{
+  "eea_recycling_quality.txt": {
+    "document_id": "eea_recycling_quality",
+    "title": "Measuring the Quality of Recycling",
+    "publisher": "European Environment Agency",
+    "url": "https://www.eea.europa.eu/en/analysis/publications/measuring-the-quality-of-recycling",
+    "source_type": "official_report",
+    "language": "en",
+    "topics": [
+      "recycling_quality",
+      "sorting",
+      "plastic",
+      "evaluation"
+    ],
+    "sha256": "3d53fe7c5be9640a6224e0a8802080c02e28f301f3f6611b5d954503a630672b",
+    "retrieved_at": "2026-10-20T10:13:24.451167+00:00",
+    "extraction_status": "validated",
+    "local_path": "data/raw_v4_expanded/eea_recycling_quality.txt",
+    "extracted_chars": 20547
+  },
+  "eea_separate_collection.txt": {
+    "document_id": "eea_separate_collection",
+    "title": "Economic Instruments and Separate Collection Systems",
+    "publisher": "European Environment Agency",
+    "url": "https://www.eea.europa.eu/en/analysis/publications/economic-instruments-and-separate-collection",
+    "source_type": "official_report",
+    "language": "en",
+    "topics": [
+      "collection",
+      "paper",
+      "glass",
+      "metal",
+      "plastic"
+    ],
+    "sha256": "d54058e4a604e85d653185a7b8b4ea984090a617f2eaa5fd51cbc0d146386535",
+    "retrieved_at": "2026-10-20T10:13:25.513417+00:00",
+    "extraction_status": "validated",
+    "local_path": "data/raw_v4_expanded/eea_separate_collection.txt",
+    "extracted_chars": 19818
+  },
+  "eea_circular_plastics.txt": {
+    "document_id": "eea_circular_plastics",
+    "title": "Pathways towards Circular Plastics in Europe",
+    "publisher": "European Environment Agency",
+    "url": "https://www.eea.europa.eu/en/analysis/publications/pathways-towards-circular-plastics",
+    "source_type": "official_report",
+    "language": "en",
+    "topics": [
+      "plastic",
+      "circular_economy",
+      "sorting",
+      "recycling"
+    ],
+    "sha256": "0b42beb887c0ba41aa2e44c44f0b29a86befb80057aa14d277986b1214dd1810",
+    "retrieved_at": "2026-10-20T10:13:26.231727+00:00",
+    "extraction_status": "validated",
+    "local_path": "data/raw_v4_expanded/eea_circular_plastics.txt",
+    "extracted_chars": 24396
+  }
+}
