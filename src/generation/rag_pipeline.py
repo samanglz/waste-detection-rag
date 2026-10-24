@@ -16,8 +16,15 @@ def retrieve_context(
     query: str,
     top_k: int = 5,
     max_chars: int = 6000,
+    reranker: Any = None,
+    fallback_on_reranker_error: bool = True,
 ) -> dict[str, Any]:
-    """Retrieve relevant chunks and assemble a bounded context."""
+    """Retrieve chunks and assemble bounded context.
+
+    If a reranker is injected, it is used for retrieval. If reranking
+    fails and fallback is enabled, retrieval falls back to the original
+    retriever. The reranker should be constructed once and reused.
+    """
 
     if not query.strip():
         raise ValueError("query must not be empty")
@@ -25,7 +32,22 @@ def retrieve_context(
     if top_k <= 0:
         raise ValueError("top_k must be positive")
 
-    results = retriever.search(query, top_k=top_k)
+    retrieval_method = "hybrid"
+    reranker_error = None
+
+    if reranker is None:
+        results = retriever.search(query, top_k=top_k)
+    else:
+        try:
+            results = reranker.search(query, top_k=top_k)
+            retrieval_method = "hybrid+reranker"
+        except Exception as exc:
+            if not fallback_on_reranker_error:
+                raise
+
+            reranker_error = f"{type(exc).__name__}: {exc}"
+            results = retriever.search(query, top_k=top_k)
+            retrieval_method = "hybrid_fallback"
 
     context_result = build_context(
         results,
@@ -37,6 +59,8 @@ def retrieve_context(
         "retrieved_chunks": results,
         "context": context_result["context"],
         "sources": context_result["sources"],
+        "retrieval_method": retrieval_method,
+        "reranker_error": reranker_error,
     }
 
 
@@ -45,6 +69,8 @@ def prepare_rag_prompt(
     query: str,
     top_k: int = 5,
     max_chars: int = 6000,
+    reranker: Any = None,
+    fallback_on_reranker_error: bool = True,
 ) -> dict[str, Any]:
     """Retrieve context and prepare a prompt for a downstream LLM."""
 
@@ -53,6 +79,8 @@ def prepare_rag_prompt(
         query=query,
         top_k=top_k,
         max_chars=max_chars,
+        reranker=reranker,
+        fallback_on_reranker_error=fallback_on_reranker_error,
     )
 
     prompt = build_prompt(
@@ -73,11 +101,14 @@ def answer_question(
     query: str,
     top_k: int = 5,
     max_chars: int = 6000,
+    reranker: Any = None,
+    fallback_on_reranker_error: bool = True,
 ) -> dict[str, Any]:
-    """Run retrieval, prompt construction and LLM generation.
+    """Retrieve, prepare a prompt, and generate a grounded answer.
 
-    Both the retriever and generator are injected by the caller.
-    If retrieval produces no usable context, the LLM is not called.
+    Both retriever and generator are injected. The optional reranker
+    is also injected and should be reused across requests. If retrieval
+    yields no usable context, generation is skipped.
     """
 
     result = retrieve_context(
@@ -85,6 +116,8 @@ def answer_question(
         query=query,
         top_k=top_k,
         max_chars=max_chars,
+        reranker=reranker,
+        fallback_on_reranker_error=fallback_on_reranker_error,
     )
 
     if not result["context"].strip():

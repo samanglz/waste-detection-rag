@@ -1,0 +1,15 @@
+services:
+  rag-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: waste-detection-rag-api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      RAG_INDEX_DIR: data/processed/retrieval_index_v4_expanded
+      RERANKER_CANDIDATE_K: "20"
+      RERANKER_BATCH_SIZE: "16"
+    restart: unless-stopped

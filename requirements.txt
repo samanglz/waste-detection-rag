@@ -20,3 +20,8 @@ google-genai>=1.0,<3.0
 
 # Testing
 pytest>=8.0,<9.0
+
+# FastAPI RAG API dependencies
+fastapi
+uvicorn[standard]
+pydantic
